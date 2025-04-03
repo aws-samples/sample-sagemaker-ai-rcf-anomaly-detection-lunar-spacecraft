@@ -28,6 +28,28 @@ cd nasa-blue-origin-anomaly-detection
 2. Install required packages:
 pip install -r requirements.txt
 
+## Architecture
+
+![Architecture Diagram](images/architecture.png)
+
+This architecture implements anomaly detection for NASA-Blue Origin Lunar DDL data using Amazon SageMaker's Random Cut Forest algorithm. Here's how it works:
+
+1. **Data Flow**:
+   - Public DDL Data is stored in an S3 bucket
+   - JupyterLab accesses this data through a SageMaker Domain
+   - A JupyterLab Notebook processes the data and implements anomaly detection
+
+2. **Processing Pipeline**:
+   - JupyterLab Notebook trains a Random Cut Forest (RCF) model
+   - The model is deployed to a SageMaker Endpoint
+   - Anomaly detection is performed on the data
+   - Results and visualizations are stored in S3
+
+3. **Output**:
+   - Anomaly data and plots are saved to S3
+   - Training and model output data is preserved in S3
+   - The system maintains VPC security throughout the process
+
 ## Usage
 
 1. Configure AWS credentials and region.
