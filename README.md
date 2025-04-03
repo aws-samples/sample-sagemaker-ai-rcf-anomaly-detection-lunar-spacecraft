@@ -22,11 +22,13 @@ This project implements Random Cut Forest (RCF) anomaly detection on NASA and Bl
 ## Installation
 
 1. Clone the repository:
+```bash
 git clone https://github.com/aws-samples/sample-sagemaker-ai-rcf-anomaly-detection-lunar-spacecraft.git
 cd sample-sagemaker-ai-rcf-anomaly-detection-lunar-spacecraft
+```bash
 
-2. Install required packages:
-pip install -r requirements.txt
+3. Install required packages:
+`bash pip install -r requirements.txt
 
 ## Architecture
 
@@ -57,7 +59,7 @@ This architecture implements anomaly detection for NASA-Blue Origin Lunar DDL da
 2. Update the `bucket_name` and `file_name` variables in the script with your S3 bucket and data file names.
 
 3. Run the script:
-python nasa_ddl_anomaly_detection.py
+`bash python nasa_ddl_anomaly_detection.py
 
 4. The script will:
 - Load and preprocess the data
