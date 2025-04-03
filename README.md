@@ -72,11 +72,6 @@ The script generates plots for:
 
 Anomalies are highlighted in red on the plots. Plots are saved to the specified S3 bucket.
 
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
-
 ## Security
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
