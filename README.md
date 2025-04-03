@@ -27,8 +27,8 @@ This project implements Random Cut Forest (RCF) anomaly detection on NASA and Bl
 
 `cd sample-sagemaker-ai-rcf-anomaly-detection-lunar-spacecraft`
 
-
 3. Install required packages:
+
 `pip install -r requirements.txt`
 
 ## Architecture
