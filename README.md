@@ -60,7 +60,8 @@ This architecture implements anomaly detection for NASA-Blue Origin Lunar DDL da
 2. Update the `bucket_name` and `file_name` variables in the script with your S3 bucket and data file names.
 
 3. Run the script:
-`bash python nasa_ddl_anomaly_detection.py
+
+`python Lunar_DDL_AD.py`
 
 4. The script will:
 - Load and preprocess the data
