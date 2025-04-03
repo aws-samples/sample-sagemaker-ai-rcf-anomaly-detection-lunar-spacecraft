@@ -87,7 +87,7 @@ Adjust the following parameters in the script as needed:
 
 ## Data
 
-The script uses public NASA-Blue Origin Demo of Lunar Deorbit, Descent, and Landing Sensors (BODDL-TP) data (https://data.nasa.gov/Aerospace/Blue-Origin-Demo-of-Deorbit-Descent-and-Landing-Se/nj3a-8wq3/about_data). Ensure your data is in the correct format with columns for timestamps, positions, velocities, and quaternions.
+The script uses [public NASA-Blue Origin Demo of Lunar Deorbit, Descent, and Landing Sensors (BODDL-TP) data](https://data.nasa.gov/Aerospace/Blue-Origin-Demo-of-Deorbit-Descent-and-Landing-Se/nj3a-8wq3/about_data). Ensure your data is in the correct format with columns for timestamps, positions, velocities, and quaternions.
 
 ## Results
 
