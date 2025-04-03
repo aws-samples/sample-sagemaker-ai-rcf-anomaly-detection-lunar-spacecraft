@@ -25,7 +25,7 @@ This project implements Random Cut Forest (RCF) anomaly detection on NASA and Bl
 ```bash
 git clone https://github.com/aws-samples/sample-sagemaker-ai-rcf-anomaly-detection-lunar-spacecraft.git
 cd sample-sagemaker-ai-rcf-anomaly-detection-lunar-spacecraft
-```bash
+```
 
 3. Install required packages:
 `bash pip install -r requirements.txt
