@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 ## Architecture
 
-![Architecture Diagram](images/architecture.png)
+![Architecture Diagram](/DDL_RCF_architecture.png)
 
 This architecture implements anomaly detection for NASA-Blue Origin Lunar DDL data using Amazon SageMaker's Random Cut Forest algorithm. Here's how it works:
 
