@@ -59,11 +59,11 @@ This architecture implements anomaly detection for NASA-Blue Origin Lunar DDL da
 
 2. Update the `bucket_name` and `file_name` variables in the script with your S3 bucket and data file names.
 
-3. Run the script:
+3. Run the script in AWS SageMaker Domain JupyterLab as a Jupyter Notebook or run as a python script:
 
 `python Lunar_DDL_AD.py`
 
-4. The script will:
+4. The notebook / script will:
 - Load and preprocess the data
 - Train and deploy a Random Cut Forest model
 - Detect anomalies in the data
