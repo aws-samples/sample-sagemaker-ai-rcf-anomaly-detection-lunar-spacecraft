@@ -99,7 +99,7 @@ The script generates plots for:
 Anomalies are highlighted in red on the plots. Plots are saved to the specified S3 bucket.
 
 ## Authors and Reviewers:
-- Dr. Ian Lunsford, Aerospace Cloud Consultant - Amazon Web Services Inc.
+- Dr. Ian Lunsford, AI/ML Aerospace Engineer - Amazon Web Services Inc.
 - Nick Biso, Machine Learning Engineer - Amazon Web Services Inc.
 
 ## Security
